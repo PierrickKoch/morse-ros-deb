@@ -2,7 +2,7 @@ Package: morse-ros
 Version: 1.0~beta-1~exp1ubuntu2
 Architecture: all
 Maintainer: MORSE Developers <morse-dev@laas.fr>
-Depends: morse-simulator, ros-fuerte-ros-comm | ros-groovy-ros-comm, ros-fuerte-common-msgs | ros-groovy-common-msgs, ros-fuerte-pr2-common | ros-groovy-pr2-common, ros-fuerte-pr2-controllers | ros-groovy-pr2-controllers
+Depends: morse-simulator, python3-pip, python3-yaml, ros-fuerte-ros-comm | ros-groovy-ros-comm, ros-fuerte-common-msgs | ros-groovy-common-msgs, ros-fuerte-pr2-common | ros-groovy-pr2-common, ros-fuerte-pr2-controllers | ros-groovy-pr2-controllers
 Recommends: morse-simulator-doc
 Section: science
 Priority: extra
