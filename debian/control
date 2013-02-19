@@ -1,13 +1,12 @@
-Package: morse-ros
-Version: 1.0~beta-1~exp1ubuntu2
+Package: morse-simulator-ros
 Architecture: all
 Maintainer: MORSE Developers <morse-dev@laas.fr>
-Depends: morse-simulator, python3-pip, python3-yaml, ros-fuerte-ros-comm | ros-groovy-ros-comm, ros-fuerte-common-msgs | ros-groovy-common-msgs, ros-fuerte-pr2-common | ros-groovy-pr2-common, ros-fuerte-pr2-controllers | ros-groovy-pr2-controllers
+Depends: morse-simulator, python3-dev, python3-pip, python3-yaml, ros-fuerte-ros-comm | ros-groovy-ros-comm, ros-fuerte-common-msgs | ros-groovy-common-msgs, ros-fuerte-pr2-common | ros-groovy-pr2-common, ros-fuerte-pr2-controllers | ros-groovy-pr2-controllers
 Recommends: morse-simulator-doc
 Section: science
 Priority: extra
 Homepage: http://morse.openrobots.org/
-Description: Multi-OpenRobot Simulation Engine, ROS interfaces
+Description: Multi-OpenRobot Simulation Engine
  List of morse features:
   * Versatile simulator for generic mobile robots simulation
     (single or multi robots),
@@ -27,3 +26,5 @@ Description: Multi-OpenRobot Simulation Engine, ROS interfaces
     frameworks,
   * Easy to integrate to other environments via a simple socket interface,
   * Fully open source, BSD license.
+ .
+ This package contains morse's ROS interfaces.

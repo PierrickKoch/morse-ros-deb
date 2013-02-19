@@ -1,0 +1,5 @@
+morse-simulator-ros (1.0-1) unstable; urgency=low
+
+  * Initial release (ROS interfaces)
+
+ -- Pierrick Koch <pkoch@laas.fr>  Tue, 19 Feb 2013 10:37:50 +0200
