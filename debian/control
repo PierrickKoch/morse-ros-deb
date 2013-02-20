@@ -1,13 +1,16 @@
 Source: morse-simulator-ros
+Section: science
+Priority: extra
 Maintainer: MORSE Developers <morse-dev@laas.fr>
+Standards-Version: 1.0
+Vcs-Git: git://github.com/laas/morse.git
+Vcs-browser: https://github.com/laas/morse
+Homepage: http://morse.openrobots.org/
 
 Package: morse-simulator-ros
 Architecture: all
-Depends: ${shlibs:Depends}, morse-simulator, python3-dev, python3-pip, python3-yaml, ros-fuerte-ros-comm | ros-groovy-ros-comm, ros-fuerte-common-msgs | ros-groovy-common-msgs, ros-fuerte-pr2-common | ros-groovy-pr2-common, ros-fuerte-pr2-controllers | ros-groovy-pr2-controllers
+Depends: morse-simulator, python3-dev, python3-pip, python3-yaml, ros-fuerte-ros-comm | ros-groovy-ros-comm, ros-fuerte-common-msgs | ros-groovy-common-msgs, ros-fuerte-pr2-common | ros-groovy-pr2-common, ros-fuerte-pr2-controllers | ros-groovy-pr2-controllers
 Recommends: morse-simulator-doc
-Section: science
-Priority: extra
-Homepage: http://morse.openrobots.org/
 Description: Multi-OpenRobot Simulation Engine
  List of morse features:
   * Versatile simulator for generic mobile robots simulation
